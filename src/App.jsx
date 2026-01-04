@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
+import Internships from './components/Internships';
+import Certifications from './components/Certifications';
 import ZoomableProjects from './components/ZoomableProjects';
 import Contact from './components/Contact';
 import './App.css';
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      <Internships />
+      <Certifications />
       <ZoomableProjects />
       <Contact />
     </div>

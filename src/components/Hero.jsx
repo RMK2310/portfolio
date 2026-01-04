@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaEnvelope, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import './Hero.css';
 
@@ -9,7 +9,7 @@ const Hero = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(150);
 
-    const roles = ["Frontend Developer", "YouTuber", "Blogger"];
+    const roles = ["Full Stack Developer", "Creative Coder", "Mern Stack Developer"];
 
     useEffect(() => {
         const handleTyping = () => {
@@ -38,23 +38,23 @@ const Hero = () => {
     return (
         <section className="home" id="home">
             <div className="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>John Kendric</h1>
+                <h3>Hello,It's Me</h3>
+                <h1>Monishkumar R</h1>
                 <h3>And I'm a <span className="multiple-text">{text}</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ab autem repellat reiciendis ipsam perspiciatis.</p>
+                <p></p>
 
                 <div className="social-media">
                     <a href="#"><FaFacebookF /></a>
-                    <a href="#"><FaTwitter /></a>
-                    <a href="#"><FaInstagram /></a>
-                    <a href="#"><FaLinkedinIn /></a>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox " target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
+                    <a href="https://www.instagram.com/lord_of_minds_23/?next=%2F" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/in/monishkumar-r-cse-424722373/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                 </div>
 
-                <button className="btn">Download CV</button>
+                <a href="/resume.pdf" download="Monish_Kumar_Resume.pdf" className="btn">Download CV</a>
             </div>
 
             <div className="home-img">
-                <div className="hexagon-container">
+                <div className="oval-container">
                     <img src="https://via.placeholder.com/400" alt="Profile" />
                 </div>
             </div>

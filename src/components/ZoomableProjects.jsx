@@ -13,12 +13,12 @@ const calculateCircularPosition = (index, total, radius = 250) => {
 };
 
 const initialData = [
-    { id: 1, title: "E-Commerce", category: "Full Stack", color: "#0ef" },
-    { id: 2, title: "Portfolio", category: "Design", color: "#ff004f" },
-    { id: 3, title: "Task App", category: "Productivity", color: "#4ade80" },
-    { id: 4, title: "Weather", category: "API", color: "#fbbf24" },
-    { id: 5, title: "Chat App", category: "Realtime", color: "#a855f7" },
-    { id: 6, title: "Dashboard", category: "Analytics", color: "#f97316" }
+    { id: 1, title: "Electronic Notice Board", category: "IoT / Hardware", color: "#0ef" },
+    { id: 2, title: "Spider Web Gallery", category: "Interactive UI", color: "#ff004f" },
+    { id: 3, title: "Secure File Vault", category: "Cybersecurity", color: "#4ade80" },
+    { id: 4, title: "Smart Campus", category: "Full Stack", color: "#fbbf24" },
+    { id: 5, title: "Biometric Auth", category: "Security", color: "#a855f7" },
+    { id: 6, title: "React Portfolio", category: "Design", color: "#f97316" }
 ];
 
 // Initialize with positions
