@@ -10,6 +10,9 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    animation: fadeUp linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .oval-container-about {
@@ -35,6 +38,9 @@
 .about-content {
     flex: 1;
     text-align: left;
+    animation: fadeUp linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .heading {
